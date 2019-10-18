@@ -821,6 +821,52 @@ button:focus {
 	margin-top: 50px;
 }
 
+/*--------------------*/
+/* Privacy Policy */
+/*--------------------*/
+
+#mu-privacy-policy {
+	background-image: url("assets/images/download-bg.jpeg");
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: inline;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#mu-privacy-policy::before {
+	background: rgba(0,0,0,0.9);
+	bottom: 0;
+	content: '';
+	left: 0;
+	top: 0;
+	right: 0;
+	position: absolute;
+	opacity: 0.84;
+}
+
+.mu-privacy-policy-area {
+	display: inline;
+	float: left;
+	padding: 150px 0;
+	width: 100%;
+}
+
+.mu-privacy-policy-area .mu-title,
+.mu-privacy-policy-area p {
+	color: #fff;
+}
+
+.mu-privacy-policy-content {
+	display: inline;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
 
 /*--------------------*/
 /* FAQ */
